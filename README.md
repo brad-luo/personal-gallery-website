@@ -6,6 +6,8 @@ A clean, minimalist personal gallery website for showcasing photography, artwork
 
 Visit the live demo: [Personal Gallery Website](https://brad-luo.github.io/personal-gallery-website/)
 
+*Note: The live demo will be available after GitHub Pages is enabled in the repository settings.*
+
 ## Features
 
 - Responsive design that works on all devices
