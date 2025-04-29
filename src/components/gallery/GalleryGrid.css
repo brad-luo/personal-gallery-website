@@ -1,0 +1,23 @@
+.gallery-grid {
+  display: flex;
+  width: 100%;
+  margin-left: -16px; /* Compensate for the gap */
+}
+
+.gallery-grid-column {
+  padding-left: 16px; /* Gap between items */
+  background-clip: padding-box;
+}
+
+.no-images {
+  text-align: center;
+  padding: 3rem;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.no-images p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}

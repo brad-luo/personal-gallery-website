@@ -1,0 +1,55 @@
+.category-filter {
+  margin-bottom: 2rem;
+}
+
+.filter-container {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filter-title {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  color: #212529;
+  font-weight: 500;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-button {
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #dee2e6;
+  color: #212529;
+}
+
+.filter-button.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .filter-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .filter-button {
+    text-align: center;
+  }
+}
