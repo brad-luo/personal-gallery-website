@@ -2,6 +2,10 @@
 
 A clean, minimalist personal gallery website for showcasing photography, artwork, or creative projects.
 
+## Live Demo
+
+Visit the live demo: [Personal Gallery Website](https://brad-luo.github.io/personal-gallery-website/)
+
 ## Features
 
 - Responsive design that works on all devices
