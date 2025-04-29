@@ -7,8 +7,11 @@ import ContactPage from './pages/contact/ContactPage';
 import './App.css';
 
 function App() {
+  // Get the base path from the import.meta.env or use a default for GitHub Pages
+  const basePath = import.meta.env.BASE_URL || '/personal-gallery-website/';
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basePath}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
